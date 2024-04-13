@@ -194,22 +194,57 @@ h1{
     top: 110px;
     right: 0;
 }
+body{
+    position: relative;
+}
+#mywork{
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    position: relative;
+}
 #myworkfont{
-    font-size: 150px;
-}
-
-
-#mywork>div{
-    width: 600px;
-    line-height: 30px;
-
     position: absolute;
-    top: 1050px;
-
+    top: 50px;
+    left: 50px;
 
 }
-#imagemywork{
+#myworkfont>h1{
+    color: #000000;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 200px;
+    margin: 0;
+}
+#leftsideofmywork{
+    width: 35%;
     position: absolute;
-    right: 0;
-    top: 500px;
+    top: 480px;
+    left: 50px;
 }
+#leftsideofmywork>p{
+    font-size: 20px;
+}
+#rightside>img{
+    width: 40vw;
+    height: 80%;
+    border-radius: 0;
+    background: blue;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/opacity: 80%;/
+}
+#myworksimage{
+    position: absolute;
+    top: 900px;
+    left: 0;
+}
+#myworknav{
+    position: absolute;
+    top: 800px;
+    left: 50px;
+}
+
+
+
