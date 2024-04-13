@@ -197,11 +197,15 @@ h1{
 body{
     position: relative;
 }
+
+
 #mywork{
     width: 100vw;
     height: 100vh;
     background: #ffffff;
     position: relative;
+    display: flex;
+    background-color: #eceeef;
 }
 #myworkfont{
     position: absolute;
@@ -246,5 +250,12 @@ body{
     left: 50px;
 }
 
+/*//////////////////////////////////////////*/
 
+#assignment{
+    position: relative;
+
+    top: 800px;
+    left: 0;
+}
 
