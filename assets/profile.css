@@ -136,6 +136,8 @@
     background-color:#ea4c89
 }
 
+/*///////////////////////////////////////////////////////////////*/
+
 header {
     position: relative;
     width: 100vw;
@@ -150,19 +152,38 @@ header>nav {
     top: 0;
     bottom: 0;
     margin: auto;
+
 }
 
 header>nav>ul {
     padding: 0;
     margin: 0;
+    font-size: medium;
+
+
 }
 
-header>nav>ul>li {
-    display: inline-block;
+header>nav>ul>a {
+    display: inline;
     margin-right: 70px;
+
+
+
 }
 h1{
-    font-size: 80px;
+    font-size: 100px;
+
+}
+
+#aboutbody{
+    position: relative;
+
+    top: -80px;
+    width: 50%;
+    font-size: medium;
+    word-spacing: 8px;
+    line-height: 23px;
+
 }
 #main{
     position: absolute;
