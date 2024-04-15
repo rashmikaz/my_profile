@@ -361,7 +361,153 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 #assignment{
     position: relative;
 
-    top: 1200px;
+    top: 1000px;
     left: 0;
 }
 
+#assignment{
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    /*background-color: #eceeef;*/
+}
+#assignmentfont{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+#assignmentfont>h1{
+    color: #000000;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+#leftsideofassignment{
+    width: 35%;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+#leftsideofassignment>p{
+    font-size: 20px;
+}
+#rightsideofassignment>img{
+    width: 40vw;
+    height: 80%;
+    border-radius: 0;
+    background: blue;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/opacity: 80%;/
+}
+/*/////////////////assignment card//////////////////////*/
+
+.cards-list {
+
+    position: relative;
+    top: 850px;
+
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+
+.card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}
+/*#card1{*/
+/*    height: 400px;*/
+/*    width: 200px;*/
+/*}*/
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+
+#gallery{
+
+    position: relative;
+
+    top: 2000px;
+    left: 0;
+
+}
+
+/*/////////////////////contact//////////////////////////////*/
+
+#contact{
+    position: relative;
+
+    top: 2500px;
+    left: 0;
+}
+
+/*/////////////////footer/////////////////*/
+
+#footer{
+    position: relative;
+
+    top: 3000px;
+    left: 0;
+
+}
