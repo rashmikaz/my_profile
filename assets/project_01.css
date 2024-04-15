@@ -1,0 +1,28 @@
+body>h1{
+    font-size: 100px;
+    position: relative;
+
+    top: -40px;
+}
+body>p{
+    width: 60%;
+    font-size: large;
+    word-spacing: 15px;
+    line-height: 30px;
+
+    position: relative;
+    top: -80px;
+}
+#dashboard{
+    position: relative;
+
+    top: -500px;
+    right: -900px;
+}
+
+#loginpage{
+    position: relative;
+
+    top: -100px;
+    right: -400px;
+}
