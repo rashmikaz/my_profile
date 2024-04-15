@@ -635,12 +635,67 @@ Remove or comment-out the code block below to see how the browser will fall-back
 #contact{
     position: relative;
 
-    top: 2500px;
+    top: 2100px;
     left: 0;
 }
 
-/*/////////////////footer/////////////////*/
+#contact{
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    position: relative;
+    display: flex;
 
+}
+#contactfont{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+#contactfont>h1{
+    color: #000000;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+#leftsideofcontact{
+    width: 35%;
+    position: absolute;
+    top: 480px;
+    left: 50px;
+}
+#leftsideofcontact>p{
+    font-size: 20px;
+}
+#rightsideofcontact>img{
+    width: 40vw;
+    height: 80%;
+    border-radius: 0;
+    background: blue;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/opacity: 80%;/
+}
+
+
+/*////////////////*/
+
+#contactdetails{
+
+    position: relative;
+    top: 900px;
+    left: 50px;
+
+}
+#contactdetails>h4{
+    font-size: 25px;
+
+}
+
+/*/////////////////footer////////////////!**/
 #footer{
     position: relative;
 
