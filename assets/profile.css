@@ -1,142 +1,5 @@
-.site-footer
-{
-    background-color:#26272b;
-    padding:45px 0 20px;
-    font-size:15px;
-    line-height:24px;
-    color:#737373;
-}
-.site-footer hr
-{
-    border-top-color:#bbb;
-    opacity:0.5
-}
-.site-footer hr.small
-{
-    margin:20px 0
-}
-.site-footer h6
-{
-    color:#fff;
-    font-size:16px;
-    text-transform:uppercase;
-    margin-top:5px;
-    letter-spacing:2px
-}
-.site-footer a
-{
-    color:#737373;
-}
-.site-footer a:hover
-{
-    color:#3366cc;
-    text-decoration:none;
-}
-.footer-links
-{
-    padding-left:0;
-    list-style:none
-}
-.footer-links li
-{
-    display:block
-}
-.footer-links a
-{
-    color:#737373
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-    color:#3366cc;
-    text-decoration:none;
-}
-.footer-links.inline li
-{
-    display:inline-block
-}
-.site-footer .social-icons
-{
-    text-align:right
-}
-.site-footer .social-icons a
-{
-    width:40px;
-    height:40px;
-    line-height:40px;
-    margin-left:6px;
-    margin-right:0;
-    border-radius:100%;
-    background-color:#33353d
-}
-.copyright-text
-{
-    margin:0
-}
 
-.social-icons
-{
-    padding-left:0;
-    margin-bottom:0;
-    list-style:none
-}
-.social-icons li
-{
-    display:inline-block;
-    margin-bottom:4px
-}
-.social-icons li.title
-{
-    margin-right:15px;
-    text-transform:uppercase;
-    color:#96a2b2;
-    font-weight:700;
-    font-size:13px
-}
-.social-icons a{
-    background-color:#eceeef;
-    color:#818a91;
-    font-size:16px;
-    display:inline-block;
-    line-height:44px;
-    width:44px;
-    height:44px;
-    text-align:center;
-    margin-right:8px;
-    border-radius:100%;
-    -webkit-transition:all .2s linear;
-    -o-transition:all .2s linear;
-    transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-    color:#fff;
-    background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-    line-height:34px;
-    height:34px;
-    width:34px;
-    font-size:14px
-}
-.social-icons a.facebook:hover
-{
-    background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-    background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-    background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-    background-color:#ea4c89
-}
-
-/*///////////////////////////////////////////////////////////////*/
+/*//////////////////////header///////////////////////////////////////////////////////////*/
 
 header {
     position: relative;
@@ -194,7 +57,7 @@ body{
     position: relative;
 }
 
-/*//////////////seemore/*/
+/*////////////////////////////////////////////////////////////////////button///////seemore/*/
 
 /*html, body {*/
 /*    display: grid;*/
@@ -222,7 +85,7 @@ a .label,
 a .icon-arrow {
     backface-visibility: hidden;
     transform: translateZ(0);
-    perspective: 1000;
+    perspective: 1000px;
 }
 
 a .label {
@@ -277,7 +140,7 @@ a:active .icon-arrow {
     fill: #FD6154;
 }
 
-/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////mywork///////////////////////////////////////////////////////////////*/
 #mywork{
     width: 100vw;
     height: 100vh;
@@ -474,7 +337,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 */
 
-/*//////////////////////////////////////////*/
+/*//////////////////////////assignment///////////////////////////////////////////////////*/
 
 #leftsideofassignment>p{
     width: 130%;
@@ -532,7 +395,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 /opacity: 80%;/
 }
-/*/////////////////assignment card//////////////////////*/
+/*/////////////////assignment card/////////////////////////////////////////*/
 
 .cards-list {
 
@@ -609,7 +472,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 
 
-/*//////////////////////////gallery////////////////////////*/
+/*//////////////////////////gallery//////////////////////////////////*/
 
 #gallery{
 
@@ -650,119 +513,120 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     font-size: 20px;
 }
 
-/*/////galleryimages///*/
+/*/////galleryimages///////////////////////////////*/
 
-/*!**/
 
-/*All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77).*/
 
-/*The 'supports' rule will only run if your browser supports CSS grid.*/
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
 
-/*Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.*/
-
-/**!*/
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
-
-:root {
-    /* Base font size */
-    font-size: 10px;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-/*body {*/
-/*    min-height: 100vh;*/
-/*    !*background-color: #fafafa;*!*/
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: "Figtree", sans-serif;*/
 /*}*/
-
-.container {
-    max-width: 100rem;
-    margin: 0 auto;
-    padding: 0 2rem 2rem;
-}
-
-.heading {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-size: 4rem;
-    font-weight: 500;
-    line-height: 1.5;
-    text-align: center;
-    padding: 3.5rem 0;
-    color: #1a1a1a;
-}
-
-.heading span {
-    display: block;
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    /* Compensate for excess margin on outer gallery flex items */
-    margin: -1rem -1rem;
-}
-
-.gallery-item {
-    /* Minimum width of 24rem and grow to fit available space */
-    flex: 1 0 24rem;
-    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-    margin: 1rem;
-    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-    overflow: hidden;
-}
-
-.gallery-image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 400ms ease-out;
-}
-
-.gallery-image:hover {
-    transform: scale(1.15);
-}
-
-/*
-
-The following rule will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling.
-
-*/
-
-@supports (display: grid) {
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-        grid-gap: 2rem;
-    }
-
-    .gallery,
-    .gallery-item {
-        margin: 0;
-    }
-}
 
 #galleryimage{
     position: relative;
-    top: 300px;
-    left: 0px;
+    top: 400px;
+    left: 300px;
+}
+
+#galleryimage>body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    width: 800px;
+    height: 500px;
+    transition: all 400ms;
+}
+
+.container:hover .box {
+    filter: grayscale(100%) opacity(24%);
+}
+
+.box {
+    position: relative;
+    background: var(--img) center center;
+    background-size: cover;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box:hover {
+    filter: grayscale(0%) opacity(100%);
+}
+
+.container:has(.box-1:hover) {
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-2:hover) {
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-3:hover) {
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+}
+
+.container:has(.box-4:hover) {
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+}
+
+.container:has(.box-5:hover) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.box:nth-child(odd) {
+    transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+    transform: translateY(16px);
+}
+
+.box::after {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 20px;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px 10px 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transform: translateY(60px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.box:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 400ms;
+}
+
+#img01{
+    width: 220px;
+    height: 500px;
 }
 
 
-
-/*/////////////////////contact//////////////////////////////*/
+/*/////////////////////contact////////////////////////////////////////////////*/
 
 #contact{
     position: relative;
 
-    top: 2100px;
+    top: 1550px;
     left: 0;
 }
 
@@ -902,11 +766,171 @@ Remove or comment-out the code block below to see how the browser will fall-back
     position: relative;
     top: 200px;
 }
-/*/////////////////footer////////////////!**/
+/*/////////////////footer//////////////////////////////////////////////////////////////////////!**/
+.site-footer
+{
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+.site-footer hr
+{
+    border-top-color:#bbb;
+    opacity:0.5
+}
+.site-footer hr.small
+{
+    margin:20px 0
+}
+.site-footer h6
+{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+.site-footer a
+{
+    color:#737373;
+}
+.site-footer a:hover
+{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links
+{
+    padding-left:0;
+    list-style:none
+}
+.footer-links li
+{
+    display:block
+}
+.footer-links a
+{
+    color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links.inline li
+{
+    display:inline-block
+}
+.site-footer .social-icons
+{
+    text-align:right
+}
+.site-footer .social-icons a
+{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+}
+.copyright-text
+{
+    margin:0
+}
+@media (max-width:991px)
+{
+    .site-footer [class^=col-]
+    {
+        margin-bottom:30px
+    }
+}
+@media (max-width:767px)
+{
+    .site-footer
+    {
+        padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+        text-align:center
+    }
+}
+.social-icons
+{
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.social-icons li
+{
+    display:inline-block;
+    margin-bottom:4px
+}
+.social-icons li.title
+{
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+}
+.social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+    color:#fff;
+    background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+}
+.social-icons a.facebook:hover
+{
+    background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+    background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+    background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+    background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+    .social-icons li.title
+    {
+        display:block;
+        margin-right:0;
+        font-weight:600
+    }
+}
 #footer{
     position: relative;
-
-    top: 3000px;
-    left: 0;
-
+    top: 2300px;
 }
