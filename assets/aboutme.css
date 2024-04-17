@@ -1,0 +1,71 @@
+header {
+    position: relative;
+    width: 100vw;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+header>nav {
+    height: fit-content;
+
+    position: absolute;
+    right: 50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+header>nav>ul {
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+
+
+}
+
+header>nav>ul>a {
+    display: inline;
+    margin-right: 70px;
+
+
+
+}
+
+#main{
+    position: relative;
+    top: -20px;
+    display: revert;
+    justify-content: space-between;
+}
+h1{
+    font-size: 100px;
+
+}
+
+#aboutbody{
+    position: relative;
+
+    top: -80px;
+    width: 50%;
+    font-size: medium;
+    word-spacing: 8px;
+    line-height: 23px;
+
+}
+
+body{
+    position: relative;
+}
+#mainimage{
+
+    position: absolute;
+    top: 150px;
+    right: 40px;
+}
+
+#body>p{
+    width: 50%;
+    line-height: 30px;
+    word-spacing: 7px;
+}
