@@ -152,6 +152,12 @@ a:active .icon-arrow {
 
 @media only screen and (min-width: 321px) and (max-width: 430px) {
 
+    /*#main{*/
+    /*    position: absolute;*/
+    /*    width: 5%;*/
+    /*}*/
+
+
 
 }
 
@@ -210,6 +216,10 @@ a:active .icon-arrow {
 }
 
 /*////////////////////card///////////////////////*/
+
+#card1font{
+    color: #26272b;
+}
 
 .cards-list {
 
