@@ -337,11 +337,19 @@
         <div id="emailsend">
 
             <h4>Send me an email</h4>
-            <textarea placeholder="Name" id="name" cols="50" rows="2"></textarea><br>
-            <textarea placeholder="Email" id="email" cols="50" rows="2"></textarea> <br>
-            <textarea placeholder="Message" id="message" cols="50" rows="13"></textarea> <br>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
 
-            <button type="">send email</button>
+            <label for="email">Email Address</label>
+            <input type="text" id="email" />
+
+            <label for="website">Website URL</label>
+            <input type="text" id="website" />
+
+            <label for="comments">Comments</label>
+            <textarea  id="comments"></textarea>
+
+            <input type="submit" value="Send Email" />
         </div>
     </div>
 
