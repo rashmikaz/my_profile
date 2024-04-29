@@ -497,33 +497,80 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     }
     #rightside{
     }
+
+
     #card1{
         position: relative;
-        top: 500px;
+
+        top: -150px;
+        left: -500px;
     }
     #card2{
+        height: 360px;
+        width: 360px;
+
         position: relative;
-        top: 500px;
+        top: -150px;
+        left: -500px;
+
     }
     #card3{
+        height: 360px;
+        width: 360px;
+
         position: relative;
-        top: 500px;
+        top: -150px;
+        left: -500px;
     }
     #card4{
-        position: relative;
-        top: 500px;
+        height: 360px;
+        width: 360px;
+
+        position: absolute;
+        top: 260px;
+        left: -80px;
+
     }
     #card5{
+        height: 360px;
+        width: 360px;
+
         position: relative;
-        top: 500px;
+
+        top: -1400px;
+        left: -80px;
+
     }
     #card6{
+        height: 360px;
+        width: 360px;
+
         position: relative;
-        top: 500px;
+
+        top: -1000px;
+        left: -100px;
     }
     #card7{
+        height: 360px;
+        width: 360px;
+
         position: relative;
-        top: 500px;
+
+
+        top: -1000px;
+        left: -500px;
+
+
+    }
+    #card8{
+        height: 360px;
+        width: 360px;
+
+        position: relative;
+
+        top: -1400px;
+        left: -100px;
+
     }
 
 }
@@ -671,7 +718,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 #assignment{
     position: relative;
 
-    top: 2500px;
+    top: 3500px;
 }
 
 }
@@ -827,6 +874,13 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     height: 500px;
 }
 
+@media only screen and (min-width: 900px) and (max-width: 932px) {
+
+    #gallery{
+        position: relative;
+        top: 3000px;
+    }
+}
 
 /*/////////////////////contact////////////////////////////////////////////////*/
 
