@@ -265,12 +265,6 @@ a:active .icon-arrow {
 
 @media only screen and (min-width: 321px) and (max-width: 430px) {
 
-    /*#main{*/
-    /*    position: absolute;*/
-    /*    width: 5%;*/
-    /*}*/
-
-
 
 }
 
@@ -484,6 +478,53 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     position: relative;
     top: 600px;
 }
+    #myworkfont{
+        position: relative;
+        top: 10px;
+    }
+    #myworkfont>h1{
+        font-size: 150px;
+        line-height: 120px;
+    }
+    #leftsideofmywork{
+        position: relative;
+        top: 240px;
+        left: -320px;
+
+    }
+    #leftsideofmywork>p{
+        width: 270%;
+    }
+    #rightside{
+    }
+    #card1{
+        position: relative;
+        top: 500px;
+    }
+    #card2{
+        position: relative;
+        top: 500px;
+    }
+    #card3{
+        position: relative;
+        top: 500px;
+    }
+    #card4{
+        position: relative;
+        top: 500px;
+    }
+    #card5{
+        position: relative;
+        top: 500px;
+    }
+    #card6{
+        position: relative;
+        top: 500px;
+    }
+    #card7{
+        position: relative;
+        top: 500px;
+    }
 
 }
 
@@ -625,7 +666,15 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 /*    width: 200px;*/
 /*}*/
 
+/*iphone 14 pro max*/
+@media only screen and (min-width: 900px) and (max-width: 932px) {
+#assignment{
+    position: relative;
 
+    top: 2500px;
+}
+
+}
 
 
 
