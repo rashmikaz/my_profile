@@ -471,6 +471,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 */
 
+
 /*iphone 14 pro max*/
 @media only screen and (min-width: 900px) and (max-width: 932px) {
 
@@ -900,6 +901,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     height: 500px;
 }
 
+/*iphone 14 pro max*/
 @media only screen and (min-width: 900px) and (max-width: 932px) {
 
     #gallery{
@@ -1139,12 +1141,24 @@ input[type="submit"]:hover {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
+/*iphone 14 pro max*/
 @media only screen and (min-width: 900px) and (max-width: 932px) {
 
    #contact{
        position: relative;
-       top: 4500px;
+       top: 3700px;
    }
+
+    #contactdetails{
+        position: relative;
+
+        top: 1350px;
+
+    }
+    /*#emailsend{*/
+    /*    position: relative;*/
+    /*    top: 700px;*/
+    /*}*/
 }
 
 
@@ -1323,7 +1337,7 @@ input[type="submit"]:hover {
     #footer{
         position: relative;
 
-        top: 6000px;
+        top: 5250px;
     }
 
 
