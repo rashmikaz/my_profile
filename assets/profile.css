@@ -904,7 +904,14 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
     #gallery{
         position: relative;
-        top: 3500px;
+        top: 3400px;
+    }
+    #leftsideofgallery>p{
+        width: 810px;
+    }
+    #galleryimage{
+        position: relative;
+        left: 50px;
     }
 }
 
@@ -1136,7 +1143,7 @@ input[type="submit"]:hover {
 
    #contact{
        position: relative;
-       top: 3500px;
+       top: 4500px;
    }
 }
 
@@ -1309,4 +1316,15 @@ input[type="submit"]:hover {
 #footer{
     position: relative;
     top: 2700px;
+}
+
+/*iphone 14 pro max*/
+@media only screen and (min-width: 900px) and (max-width: 932px) {
+    #footer{
+        position: relative;
+
+        top: 6000px;
+    }
+
+
 }
