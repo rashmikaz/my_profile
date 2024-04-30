@@ -718,8 +718,34 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 #assignment{
     position: relative;
 
-    top: 3500px;
+    top: 2300px;
 }
+#rightsideofassignment{
+
+    position: relative;
+    left: 890px;
+    top: 130px;
+}
+#a1{
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+#a2{
+    position: relative;
+    top: 250px;
+    left: 150px;
+}
+#a3{
+    position: relative;
+    top: 600px;
+    right: 550px;
+}
+    #a4{
+        position: relative;
+        top: 250px;
+        left: 150px;
+    }
 
 }
 
@@ -878,7 +904,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
     #gallery{
         position: relative;
-        top: 3000px;
+        top: 3500px;
     }
 }
 
@@ -1104,6 +1130,14 @@ input[type="submit"]:hover {
     -moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 900px) and (max-width: 932px) {
+
+   #contact{
+       position: relative;
+       top: 3500px;
+   }
 }
 
 
