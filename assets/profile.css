@@ -869,7 +869,39 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     #assignment{
         position: relative;
 
-        top: 3000px;
+        top: 2310px;
+    }
+    #leftsideofassignment{
+        position: relative;
+        top: 250px;
+        width: 65%;
+    }
+    #rightsideofassignment{
+        position: relative;
+
+        top: 150px;
+        right: -600px;
+
+    }
+    #a1{
+        position: relative;
+        top: 70px;
+        left: -450px;
+    }
+    #a2{
+        position: relative;
+        top: -300px;
+        left: -50px;
+    }
+    #a3{
+        position: relative;
+        top: -250px;
+        right: 450px;
+    }
+    #a4{
+        position: relative;
+        top: -600px;
+        right: 50px;
     }
 }
 
@@ -1045,7 +1077,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     #gallery{
         position: relative;
 
-        top: 3000px;
+        top: 3500px;
     }
 }
 
@@ -1291,6 +1323,14 @@ input[type="submit"]:hover {
     /*    position: relative;*/
     /*    top: 700px;*/
     /*}*/
+}
+/*ipad mini*/
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+    #contact{
+        position: relative;
+
+        top: 4000px;
+    }
 }
 
 
