@@ -1072,12 +1072,20 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     }
 }
 
+/*ipad mini*/
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 
     #gallery{
         position: relative;
 
-        top: 3500px;
+        top: 3300px;
+    }
+    #leftsideofgallery{
+        width: 90%;
+    }
+    #galleryimage{
+        position: relative;
+        left: 10px;
     }
 }
 
@@ -1329,7 +1337,18 @@ input[type="submit"]:hover {
     #contact{
         position: relative;
 
-        top: 4000px;
+        top: 3600px;
+    }
+    #contactdetails{
+        position: relative;
+
+        top: 1350px;
+
+    }
+    #rightsideofcontact{
+        position: relative;
+        top: 200px;
+        left: 950px;
     }
 }
 
@@ -1512,5 +1531,17 @@ input[type="submit"]:hover {
         top: 5250px;
     }
 
+}
+
+/*ipad mini*/
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+
+    #footer{
+        position: relative;
+
+        top: 5100px;
+    }
+
 
 }
+
