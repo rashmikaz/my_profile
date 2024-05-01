@@ -107,16 +107,30 @@ h1{
         background-color: lightyellow;
     }
 
-    #abc {
-        width: 250px;
-    }
+
 
     #mainnav {
         font-size: 100px;
         margin-right: 100px;
     }
 
-    #navhome {
+
+
+    #mainname{
+        position: relative;
+
+        top: 600px;
+        left: 100px;
+    }
+    #abc{
+        width: 550px;
+
+        position: relative;
+        right: 150px;
+
+    }
+    #aboutbody{
+        width: 80%;
     }
 
 }
@@ -576,6 +590,105 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 }
 
+/*ipad mini*/
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+
+    #mywork{
+        position: relative;
+
+        top: 600px;
+    }
+    #myworkfont>h1{
+        font-size: 150px;
+        position: relative;
+        top: -60px;
+    }
+    #leftsideofmywork{
+        width: 90%;
+
+        position: relative;
+
+        top: 350px;
+
+    }
+
+    #card1{
+        position: relative;
+
+        top: -150px;
+        left: -450px;
+    }
+    #card2{
+        height: 360px;
+        width: 360px;
+
+        position: relative;
+        top: -150px;
+        left: -450px;
+
+    }
+    #card3{
+        height: 360px;
+        width: 360px;
+
+        position: relative;
+        top: -150px;
+        left: -450px;
+    }
+    #card4{
+        height: 360px;
+        width: 360px;
+
+        position: absolute;
+        top: 260px;
+        left: 30px;
+
+    }
+    #card5{
+        height: 360px;
+        width: 360px;
+
+        position: relative;
+
+        top: -1400px;
+        left: -20px;
+
+    }
+    #card6{
+        height: 360px;
+        width: 360px;
+
+        position: relative;
+
+        top: -1000px;
+        left: -20px;
+    }
+    #card7{
+        height: 360px;
+        width: 360px;
+
+        position: relative;
+
+
+        top: -1000px;
+        left: -450px;
+
+
+    }
+    #card8{
+        height: 360px;
+        width: 360px;
+
+        position: relative;
+
+        top: -1400px;
+        left: -20px;
+
+    }
+
+}
+
+
 
 /*//////////////////////////assignment///////////////////////////////////////////////////*/
 
@@ -750,6 +863,16 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 }
 
+/*ipad mini*/
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+
+    #assignment{
+        position: relative;
+
+        top: 3000px;
+    }
+}
+
 
 
 
@@ -914,6 +1037,15 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     #galleryimage{
         position: relative;
         left: 50px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+
+    #gallery{
+        position: relative;
+
+        top: 3000px;
     }
 }
 
