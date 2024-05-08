@@ -95,8 +95,6 @@ h1{
         margin-right: 100px;
     }
 
-    #navhome {
-    }
 
     }
 
@@ -179,16 +177,39 @@ h1{
     }
 
     #abc {
-        width: 250px;
+        width: 390px;
     }
 
     #mainnav {
         font-size: 100px;
-        margin-right: 100px;
+        margin-right: -50px;
+
     }
 
-    #navhome {
-    }
+   #mainname>h1{
+       font-size: 70px;
+       position: relative;
+
+       top: 400px;
+       left: 35px;
+   }
+   #main{
+      position: relative;
+
+       top: -650px;
+       left: 110px;
+   }
+   #aboutbody{
+       width: 80%;
+       position: relative;
+       top: 350px;
+       left: 40px;
+   }
+   #mainname>#seemore{
+       position: relative;
+       top: 350px;
+       left: 40px;
+   }
 
 }
 
@@ -691,6 +712,15 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
     }
 
+}
+
+/*iphone se*/
+@media only screen and (min-width: 600px) and (max-width: 667px) {
+
+    #mywork{
+        position: relative;
+        top: 1000px;
+    }
 }
 
 
