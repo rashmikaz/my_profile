@@ -495,7 +495,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
     #myworkfont{
         position: relative;
-        top: 10px;
+        top: 90px;
     }
     #myworkfont>h1{
         font-size: 150px;
@@ -508,9 +508,14 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
     }
     #leftsideofmywork>p{
-        width: 270%;
+        width: 250%;
+        position: relative;
+        top: -70px;
     }
     #rightside{
+        position: relative;
+        left: 370px;
+        top: -50px;
     }
 
 
@@ -518,7 +523,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         position: relative;
 
         top: -150px;
-        left: -500px;
+        left: -300px;
     }
     #card2{
         height: 360px;
@@ -526,7 +531,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
         position: relative;
         top: -150px;
-        left: -500px;
+        left: -400px;
 
     }
     #card3{
@@ -616,7 +621,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         position: relative;
 
         top: -150px;
-        left: -450px;
+        left: -490px;
     }
     #card2{
         height: 360px;
@@ -624,7 +629,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
         position: relative;
         top: -150px;
-        left: -450px;
+        left: -490px;
 
     }
     #card3{
@@ -633,7 +638,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
         position: relative;
         top: -150px;
-        left: -450px;
+        left: -490px;
     }
     #card4{
         height: 360px;
@@ -641,7 +646,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
         position: absolute;
         top: 260px;
-        left: 30px;
+        left: -50px;
 
     }
     #card5{
@@ -651,7 +656,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         position: relative;
 
         top: -1400px;
-        left: -20px;
+        left: -50px;
 
     }
     #card6{
@@ -661,7 +666,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         position: relative;
 
         top: -1000px;
-        left: -20px;
+        left: -60px;
     }
     #card7{
         height: 360px;
@@ -671,7 +676,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 
         top: -1000px;
-        left: -450px;
+        left: -490px;
 
 
     }
@@ -681,8 +686,8 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
         position: relative;
 
-        top: -1400px;
-        left: -20px;
+        top: -1410px;
+        left: -80px;
 
     }
 
@@ -837,27 +842,27 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 #rightsideofassignment{
 
     position: relative;
-    left: 890px;
+    left: 590px;
     top: 130px;
 }
 #a1{
     position: relative;
-    top: 250px;
-    left: 50px;
+    top: 550px;
+    left: 100px;
 }
 #a2{
     position: relative;
-    top: 250px;
+    top: 550px;
     left: 150px;
 }
 #a3{
     position: relative;
-    top: 600px;
+    top: 900px;
     right: 550px;
 }
     #a4{
         position: relative;
-        top: 250px;
+        top: 850px;
         left: 150px;
     }
 
