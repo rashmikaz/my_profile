@@ -298,10 +298,7 @@ a:active .icon-arrow {
 }
 
 
-@media only screen and (min-width: 321px) and (max-width: 430px) {
 
-
-}
 
 /*////////////////////////////mywork///////////////////////////////////////////////////////////////*/
 #mywork{
@@ -718,9 +715,101 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 @media only screen and (min-width: 600px) and (max-width: 667px) {
 
     #mywork{
+        height: 800px;
         position: relative;
-        top: 1000px;
+        top: 10px;
     }
+
+    #myworkfont>h1{
+        font-size: 100px;
+        position: relative;
+        top: -60px;
+    }
+    #leftsideofmywork{
+        width: 90%;
+
+        position: relative;
+
+        top: 220px;
+
+    }
+    #card1{
+
+        height: 250px;
+        width: 250px;
+        position: relative;
+
+        top: -50px;
+        left: -300px;
+    }
+    #card2{
+        height: 250px;
+        width: 250px;
+
+        position: relative;
+        top: -50px;
+        left: -300px;
+
+    }
+    #card3{
+        height: 250px;
+        width: 250px;
+
+        position: relative;
+        top: -50px;
+        left: -300px;
+    }
+    #card4{
+        height: 250px;
+        width: 250px;
+
+        position: absolute;
+        top: 260px;
+        left: 10px;
+
+    }
+    #card5{
+        height: 250px;
+        width: 250px;
+
+        position: relative;
+
+        top: -980px;
+        left: -20px;
+
+    }
+    #card6{
+        height: 250px;
+        width: 250px;
+
+        position: relative;
+
+        top: -670px;
+        left: -30px;
+    }
+    #card7{
+        height: 250px;
+        width: 250px;
+
+        position: relative;
+
+
+        top: -670px;
+        left: -300px;
+
+
+    }
+    #card8{
+        height: 250px;
+        width: 250px;
+
+        position: relative;
+
+        top: -980px;
+        left: -30px;
+
+    }
+
 }
 
 
@@ -938,6 +1027,17 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         top: 70px;
         right: 170px;
     }
+}
+
+/*iphone se*/
+@media only screen and (min-width: 600px) and (max-width: 667px){
+
+    #assignment{
+        position: relative;
+
+        top: 1300px;
+    }
+
 }
 
 
