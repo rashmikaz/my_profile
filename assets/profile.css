@@ -1550,7 +1550,21 @@ input[type="submit"]:hover {
     #contact{
         position: relative;
 
-        top: 3600px;
+        top: 3200px;
+    }
+    #rightsideofcontact{
+       position: relative;
+
+        top: 400px;
+        left: 630px;
+
+    }
+    #contactdetails{
+        position: relative;
+
+        top: 2000px;
+        left: 15px;
+
     }
 
 
@@ -1745,7 +1759,13 @@ input[type="submit"]:hover {
 
         top: 5100px;
     }
+}
+/*iphone se*/
+@media only screen and (min-width: 600px) and (max-width: 667px){
+    #footer{
+        position: relative;
 
+        top: 5400px;
+    }
 
 }
-
