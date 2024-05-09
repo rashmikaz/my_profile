@@ -182,7 +182,7 @@ h1{
 
     #mainnav {
         font-size: 100px;
-        margin-right: -50px;
+        margin-right: -80px;
 
     }
 
@@ -1038,6 +1038,48 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         top: 1300px;
     }
 
+    #rightsideofassignment{
+        position: relative;
+
+        top: 130px;
+        right: -650px;
+
+    }
+    #a1{
+
+        width: 250px;
+        height:250px;
+
+        position: relative;
+        top: 670px;
+        left: -10px;
+    }
+    #a2{
+        width: 250px;
+        height:250px;
+
+        position: relative;
+        top: 670px;
+        left: -30px;
+    }
+    #a3{
+        width: 250px;
+        height:250px;
+
+        position: relative;
+        top: 650px;
+        right: 40px;
+    }
+    #a4{
+        width: 250px;
+        height:250px;
+
+        position: relative;
+        top: 650px;
+        right: 50px;
+    }
+
+
 }
 
 
@@ -1221,6 +1263,14 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     #galleryimage{
         position: relative;
         left: 80px;
+    }
+}
+/*iphone se*/
+@media only screen and (min-width: 600px) and (max-width: 667px){
+    #gallery{
+        position: relative;
+
+        top: 3300px;
     }
 }
 
@@ -1485,6 +1535,16 @@ input[type="submit"]:hover {
         top: 200px;
         left: 950px;
     }
+}
+/*iphone se*/
+@media only screen and (min-width: 600px) and (max-width: 667px){
+    #contact{
+        position: relative;
+
+        top: 3600px;
+    }
+
+
 }
 
 
