@@ -1270,8 +1270,17 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     #gallery{
         position: relative;
 
-        top: 3300px;
+        top: 2800px;
     }
+    #leftsideofgallery{
+        width: 90%;
+    }
+    #galleryimage{
+        position: relative;
+        left: 10px;
+        top: 500px;
+    }
+
 }
 
 /*/////////////////////contact////////////////////////////////////////////////*/
