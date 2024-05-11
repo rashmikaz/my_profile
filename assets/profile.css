@@ -1083,32 +1083,32 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         height:250px;
 
         position: relative;
-        top: 670px;
-        left: -10px;
+        top: 470px;
+        left: -270px;
     }
     #a2{
         width: 250px;
         height:250px;
 
         position: relative;
-        top: 670px;
-        left: -30px;
+        top: 160px;
+        left: 5px;
     }
     #a3{
         width: 250px;
         height:250px;
 
         position: relative;
-        top: 650px;
-        right: 40px;
+        top: 120px;
+        right: 270px;
     }
     #a4{
         width: 250px;
         height:250px;
 
         position: relative;
-        top: 650px;
-        right: 50px;
+        top: -190px;
+        right: 0px;
     }
 
 
@@ -1302,7 +1302,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     #gallery{
         position: relative;
 
-        top: 3800px;
+        top: 2600px;
     }
     #leftsideofgallery{
         width: 90%;
@@ -1793,11 +1793,11 @@ input[type="submit"]:hover {
     }
 }
 /*iphone se*/
-@media only screen and (min-width: 600px) and (max-width: 667px){
+@media only screen and (min-width: 500px) and (max-width: 570px){
     #footer{
         position: relative;
 
-        top: 5400px;
+        top: 6400px;
     }
 
 }
