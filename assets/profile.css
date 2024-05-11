@@ -170,7 +170,7 @@ h1{
 }
 
 /*iphone se*/
-@media only screen and (min-width: 600px) and (max-width: 667px) {
+@media only screen and (min-width: 500px) and (max-width: 570px) {
 
     #home{
         background-color: lightgreen;
@@ -181,13 +181,30 @@ h1{
     }
 
     #mainnav {
+        position: relative;
+
+        right: -10px;
         font-size: 100px;
-        margin-right: -80px;
+        margin-right: -180px;
+
+    }
+    header>nav>ul>a {
+        display: inline;
+        margin-right: 40px;
+
+
+
+    }
+    #mainname{
+        position: relative;
+
+        top: 0px;
+        right: 20px;
 
     }
 
    #mainname>h1{
-       font-size: 70px;
+       font-size: 60px;
        position: relative;
 
        top: 400px;
@@ -197,7 +214,7 @@ h1{
       position: relative;
 
        top: -650px;
-       left: 110px;
+       left: 50px;
    }
    #aboutbody{
        width: 80%;
@@ -712,10 +729,10 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 
 /*iphone se*/
-@media only screen and (min-width: 600px) and (max-width: 667px) {
+@media only screen and (min-width: 500px) and (max-width: 570px) {
 
     #mywork{
-        height: 800px;
+        height: 850px;
         position: relative;
         top: 10px;
     }
@@ -724,14 +741,20 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         font-size: 100px;
         position: relative;
         top: -60px;
+        left: -40px;
     }
     #leftsideofmywork{
-        width: 90%;
+        width: 100%;
 
         position: relative;
 
         top: 220px;
-
+        left: 10px;
+    }
+    #rightside{
+        position: relative;
+        left: 310px;
+        top: -70px;
     }
     #card1{
 
@@ -1030,19 +1053,28 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 
 /*iphone se*/
-@media only screen and (min-width: 600px) and (max-width: 667px){
+@media only screen and (min-width: 500px) and (max-width: 570px){
 
     #assignment{
         position: relative;
 
-        top: 1300px;
+        top: 1200px;
+    }
+    #assignmentfont>h1{
+        font-size: 70px;
+    }
+    #leftsideofassignment{
+        width: 80%;
+
+        position: relative;
+        left: 10px;
     }
 
     #rightsideofassignment{
         position: relative;
 
-        top: 130px;
-        right: -650px;
+        top: 180px;
+        right: -360px;
 
     }
     #a1{
@@ -1266,11 +1298,11 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     }
 }
 /*iphone se*/
-@media only screen and (min-width: 600px) and (max-width: 667px){
+@media only screen and (min-width: 500px) and (max-width: 570px){
     #gallery{
         position: relative;
 
-        top: 2800px;
+        top: 3800px;
     }
     #leftsideofgallery{
         width: 90%;
@@ -1546,7 +1578,7 @@ input[type="submit"]:hover {
     }
 }
 /*iphone se*/
-@media only screen and (min-width: 600px) and (max-width: 667px){
+@media only screen and (min-width: 500px) and (max-width: 570px){
     #contact{
         position: relative;
 
