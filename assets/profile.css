@@ -213,7 +213,7 @@ h1{
    #main{
       position: relative;
 
-       top: -650px;
+       top: -625px;
        left: 50px;
    }
    #aboutbody{
@@ -1584,18 +1584,28 @@ input[type="submit"]:hover {
 
         top: 3200px;
     }
+    #leftsideofcontact{
+        width: 100%;
+
+        position: relative;
+        left: 20px;
+    }
+    #leftsideofcontact>p{
+        width: 210%;
+
+    }
     #rightsideofcontact{
        position: relative;
 
         top: 400px;
-        left: 630px;
+        left: 430px;
 
     }
     #contactdetails{
         position: relative;
 
-        top: 2000px;
-        left: 15px;
+        top: 1700px;
+        left: -115px;
 
     }
 
@@ -1797,7 +1807,7 @@ input[type="submit"]:hover {
     #footer{
         position: relative;
 
-        top: 6400px;
+        top: 5200px;
     }
 
 }
