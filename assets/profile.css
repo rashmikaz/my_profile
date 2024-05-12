@@ -1057,33 +1057,33 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 #assignment{
     position: relative;
 
-    top: 3300px;
+    top: 2150px;
 }
 #rightsideofassignment{
 
     position: relative;
-    left: 590px;
+    left: 720px;
     top: 130px;
 }
 #a1{
     position: relative;
     top: 550px;
-    left: 100px;
+    left: 0px;
 }
 #a2{
     position: relative;
     top: 550px;
-    left: 150px;
+    left: 0px;
 }
 #a3{
     position: relative;
-    top: 900px;
-    right: 550px;
+    top: 550px;
+    right: 10px;
 }
     #a4{
         position: relative;
-        top: 850px;
-        left: 150px;
+        top: 550px;
+        left: -20px;
     }
 
 }
@@ -1303,7 +1303,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
     #gallery{
         position: relative;
-        top: 3400px;
+        top: 4400px;
     }
     #leftsideofgallery>p{
         width: 810px;
@@ -1556,12 +1556,50 @@ input[type="submit"]:hover {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
+/*iphone se*/
+@media only screen and (min-width: 500px) and (max-width: 667px) {
+    #contact {
+        position: relative;
+
+        top: 3200px;
+    }
+
+    #leftsideofcontact {
+        width: 100%;
+
+        position: relative;
+        left: 20px;
+    }
+
+    #leftsideofcontact > p {
+        width: 210%;
+
+    }
+
+    #rightsideofcontact {
+        position: relative;
+
+        top: 400px;
+        left: 430px;
+
+    }
+
+    #contactdetails {
+        position: relative;
+
+        top: 1700px;
+        left: -115px;
+
+    }
+
+}
+
 /*iphone 14 pro max*/
-@media only screen and (min-width: 900px) and (max-width: 932px) {
+    @media only screen and (min-width: 667px) and (max-width: 932px) {
 
    #contact{
        position: relative;
-       top: 3700px;
+       top: 5000px;
    }
 
     #contactdetails{
@@ -1570,11 +1608,9 @@ input[type="submit"]:hover {
         top: 1350px;
 
     }
-    /*#emailsend{*/
-    /*    position: relative;*/
-    /*    top: 700px;*/
-    /*}*/
+
 }
+
 /*ipad mini*/
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
     #contact{
@@ -1594,40 +1630,10 @@ input[type="submit"]:hover {
         left: 950px;
     }
 }
-/*iphone se*/
-@media only screen and (min-width: 500px) and (max-width: 570px){
-    #contact{
-        position: relative;
-
-        top: 3200px;
-    }
-    #leftsideofcontact{
-        width: 100%;
-
-        position: relative;
-        left: 20px;
-    }
-    #leftsideofcontact>p{
-        width: 210%;
-
-    }
-    #rightsideofcontact{
-       position: relative;
-
-        top: 400px;
-        left: 430px;
-
-    }
-    #contactdetails{
-        position: relative;
-
-        top: 1700px;
-        left: -115px;
-
-    }
 
 
-}
+
+
 
 
 /*/////////////////footer//////////////////////////////////////////////////////////////////////!**/
@@ -1800,8 +1806,19 @@ input[type="submit"]:hover {
     top: 2700px;
 }
 
+/*iphone se*/
+@media only screen and (min-width: 500px) and (max-width: 667px){
+    #footer{
+        position: relative;
+
+        top: 5200px;
+    }
+
+}
+
+
 /*iphone 14 pro max*/
-@media only screen and (min-width: 900px) and (max-width: 932px) {
+@media only screen and (min-width: 667px) and (max-width: 932px) {
     #footer{
         position: relative;
 
@@ -1818,13 +1835,4 @@ input[type="submit"]:hover {
 
         top: 5100px;
     }
-}
-/*iphone se*/
-@media only screen and (min-width: 500px) and (max-width: 570px){
-    #footer{
-        position: relative;
-
-        top: 5200px;
-    }
-
 }
