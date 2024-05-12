@@ -1303,14 +1303,16 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
     #gallery{
         position: relative;
-        top: 4400px;
+        top: 3600px;
     }
     #leftsideofgallery>p{
-        width: 810px;
+        width: 610px;
     }
     #galleryimage{
         position: relative;
-        left: 50px;
+        width: 500px;
+        left: 100px;
+        top: 500px;
     }
 }
 
