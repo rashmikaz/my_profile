@@ -179,27 +179,6 @@ h1{
 }
 
 
-
-
-/*ipadpro*/
-@media only screen and (min-width: 1300px) and (max-width: 1366px) {
-
-    #home{
-        background-color: black;
-    }
-
-    #abc {
-        width: 250px;
-    }
-
-    #mainnav {
-        font-size: 100px;
-        margin-right: 100px;
-    }
-
-
-    }
-
 /*ipad mini*/
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 
@@ -232,6 +211,44 @@ h1{
     #aboutbody{
         width: 80%;
     }
+
+}
+/*ipad air*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    #home{
+        background-color: yellow;
+    }
+
+    #abc {
+        width: 550px;
+
+        position: relative;
+        left: -200px;
+    }
+
+    #mainnav {
+        font-size: 100px;
+        margin-right: 250px;
+    }
+
+    #mainnav {
+        font-size: 100px;
+        margin-right:-140px;
+
+        position: relative;
+        left: 190px;
+    }
+    #mainname{
+        position: relative;
+
+        top: 600px;
+        left: 140px;
+    }
+    #aboutbody{
+        width: 80%;
+    }
+
 
 }
 
@@ -846,6 +863,30 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 }
 
+/*ipad air*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    #mywork{
+        position: relative;
+
+        top: 600px;
+    }
+    #myworkfont>h1{
+        font-size: 170px;
+        position: relative;
+        top: -60px;
+    }
+    #leftsideofmywork{
+        width: 90%;
+
+        position: relative;
+
+        top: 370px;
+
+    }
+
+}
+
+
 
 
 
@@ -1130,6 +1171,17 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     }
 }
 
+/*ipad air*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+
+    #assignment{
+        position: relative;
+
+        top: 2310px;
+    }
+
+}
+
 
 
 /*//////////////////////////gallery//////////////////////////////////*/
@@ -1332,6 +1384,15 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         left: 80px;
     }
 }
+
+/*ipad air*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    #gallery{
+        position: relative;
+        top: 3600px;
+    }
+}
+
 
 
 /*/////////////////////contact////////////////////////////////////////////////*/
