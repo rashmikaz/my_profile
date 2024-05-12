@@ -1601,15 +1601,21 @@ input[type="submit"]:hover {
 
    #contact{
        position: relative;
-       top: 5000px;
+       top: 4000px;
    }
+        #rightsideofcontact{
+            position: relative;
+            left: 720px;
+            top: 150px;
+        }
 
     #contactdetails{
         position: relative;
 
-        top: 1350px;
+        top: 1750px;
 
     }
+
 
 }
 
@@ -1824,7 +1830,7 @@ input[type="submit"]:hover {
     #footer{
         position: relative;
 
-        top: 5250px;
+        top: 6000px;
     }
 
 }
