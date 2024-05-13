@@ -883,6 +883,83 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         top: 370px;
 
     }
+    #card1{
+        height: 330px;
+        width: 330px;
+
+        position: relative;
+
+        top: -130px;
+        left: -650px;
+    }
+    #card2{
+        height: 330px;
+        width: 330px;
+
+        position: relative;
+        top: -150px;
+        left: -650px;
+
+    }
+    #card3{
+        height: 330px;
+        width: 330px;
+
+        position: relative;
+        top: -540px;
+        left: -280px;
+    }
+    #card4{
+        height: 330px;
+        width: 330px;
+
+        position: absolute;
+        top: -120px;
+        left: 230px;
+
+    }
+    #card5{
+        height: 330px;
+        width: 330px;
+
+        position: relative;
+
+        top: -1300px;
+        left: -280px;
+
+    }
+    #card6{
+        height: 330px;
+        width: 330px;
+
+        position: relative;
+
+        top: -1320px;
+        left: 90px;
+    }
+    #card7{
+        height: 330px;
+        width: 330px;
+
+        position: relative;
+
+
+        top: -1320px;
+        left: -640px;
+
+
+    }
+    #card8{
+        height: 330px;
+        width: 330px;
+
+        position: relative;
+
+        top: -1710px;
+        left: -260px;
+
+    }
+
 
 }
 
