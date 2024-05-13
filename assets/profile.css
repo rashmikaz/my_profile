@@ -1254,7 +1254,13 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     #assignment{
         position: relative;
 
-        top: 2310px;
+        top: 1800px;
+    }
+    #rightsideofassignment{
+
+        position: relative;
+        left: 1120px;
+        top: 130px;
     }
 
 }
@@ -1466,7 +1472,11 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 @media only screen and (min-width: 1024px) and (max-width: 1200px){
     #gallery{
         position: relative;
-        top: 3600px;
+        top: 2800px;
+    }
+    #galleryimage{
+        position: relative;
+        left: 170px;
     }
 }
 
@@ -1764,16 +1774,37 @@ input[type="submit"]:hover {
 
         top: 3600px;
     }
+    #rightsideofcontact{
+        position: relative;
+        top: 200px;
+        left: 950px;
+    }
     #contactdetails{
         position: relative;
 
         top: 1350px;
 
     }
+
+}
+
+/*ipad air*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    #contact{
+        position: relative;
+
+        top: 3100px;
+    }
     #rightsideofcontact{
         position: relative;
         top: 200px;
-        left: 950px;
+        left: 1150px;
+    }
+    #contactdetails{
+        position: relative;
+
+        top: 1150px;
+
     }
 }
 
@@ -1982,3 +2013,13 @@ input[type="submit"]:hover {
         top: 5100px;
     }
 }
+
+/*ipad air*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    #footer{
+        position: relative;
+
+        top: 4400px;
+    }
+}
+
