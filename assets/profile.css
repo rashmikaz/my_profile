@@ -36,36 +36,41 @@ header {
 .nav-bar .nav-button-services a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/services.gif") no-repeat 0px -2px transparent; }
 
 .nav-bar .nav-button-products a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif") no-repeat 0px -2px transparent; }
+
+#main-menu{
+    position: relative;
+    left: 700px;
+}
 /*/////////*/
 
-#mainnav {
-    position: absolute;
-    justify-content: space-between;
+/*#mainnav {*/
+/*    position: absolute;*/
+/*    justify-content: space-between;*/
 
-    /*top: 50%;*/
-    /*left: 0%;*/
-    /*margin: auto;*/
+/*    !*top: 50%;*!*/
+/*    !*left: 0%;*!*/
+/*    !*margin: auto;*!*/
 
-    top: 50px;
-    right: 30px;
-}
+/*    top: 50px;*/
+/*    right: 30px;*/
+/*}*/
 
-header>nav>ul {
-    padding: 0;
-    margin: 0;
-    font-size: medium;
-
-
-
-}
-
-header>nav>ul>a {
-    display: inline;
-    margin-right: 70px;
+/*header>nav>ul {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    font-size: medium;*/
 
 
 
-}
+/*}*/
+
+/*header>nav>ul>a {*/
+/*    display: inline;*/
+/*    margin-right: 70px;*/
+
+
+
+/*}*/
 
 #home{
     position: relative;
