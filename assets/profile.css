@@ -117,6 +117,7 @@ header {
     height: 60px;
     padding: 10px;
     box-sizing: border-box;
+
 }
 
 #main-menu .nav-bar { list-style:none; margin-top: 40px; }
@@ -158,6 +159,8 @@ h1{
     position: relative;
 
     top: -80px;
+    left: 40px;
+
     width: 50%;
     font-size: medium;
     word-spacing: 8px;
@@ -170,6 +173,16 @@ h1{
    position: absolute;
     top: 150px;
     right: 40px;
+}
+#mainname>h1{
+    position: relative;
+
+    left: 40px;
+}
+#mainname>#seemore{
+    position: relative;
+
+    left: 40px;
 }
 
 /*iphone se*/
@@ -211,7 +224,7 @@ h1{
         position: relative;
 
         top: 400px;
-        left: 35px;
+        left: 95px;
     }
     #main{
         position: relative;
@@ -1640,7 +1653,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 #contactdetails{
 
     position: relative;
-    top: 900px;
+    top: 1000px;
     left: 50px;
 
 }
