@@ -8,6 +8,7 @@ body {
     font-family: sans-serif, system-ui;
     background: var(--white);
     cursor: pointer;
+    background-color: white;
 }
 
 body::before {
@@ -25,12 +26,64 @@ body::before {
     50% 50% / var(--size) var(--size),
     linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
       var(--size) var(--size);
-    mask: linear-gradient(-15deg, transparent 40%, white);
+    mask: linear-gradient(-15deg, transparent 40%, black);
     top: 0;
     transform-style: flat;
     pointer-events: none;
     z-index: -1;
 }
+
+/* =============================================================================
+  HTML5 CSS Reset Minified - Eric Meyer
+  ========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Teko:300,400,500,600);
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #000000;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+html,body{
+    width:100%;
+    height:100%;
+    background:#FFFFFF;
+}
+
+/*body {*/
+
+/*    !*background: url(https://i.imgur.com/2vOXiPV.jpg?1);*!*/
+/*    background-color: white;*/
+
+/*}*/
+
+/* remove canvas default margin */
+canvas{
+    display:block;
+    vertical-align:bottom;
+}
+
+#particles-js{
+    width:100%;
+    height:100%;
+}
+
+
 
 
 
@@ -38,7 +91,7 @@ body::before {
 header {
     position: relative;
 
-    top: 100px;
+    top: -630px;
     left: 50px;
 
     width: 100%;
@@ -86,7 +139,7 @@ h1{
 #aboutbody{
     position: relative;
 
-    top: 80px;
+    top: -620px;
     left: 40px;
 
     width: 50%;
@@ -105,13 +158,13 @@ h1{
 #mainname>h1{
     position: relative;
 
-    top: 90px;
+    top: -620px;
     left: 40px;
 }
 #mainname>#seemore{
     position: relative;
 
-    top: 100px;
+    top: -580px;
     left: 40px;
 }
 
@@ -380,7 +433,7 @@ a:active .icon-arrow {
     background: #ffffff;
     position: relative;
 
-    top: 150px;
+    top: -500px;
     display: flex;
     background-color: #eceeef;
 }
@@ -1139,7 +1192,7 @@ tagcloud
 #assignment {
     position: relative;
 
-    top: 250px;
+    top: -450px;
     left: 0;
 }
 
@@ -1157,7 +1210,7 @@ tagcloud
 #assignment{
     width: 100vw;
     height: 100vh;
-    background: #ffffff;
+    /*background: #ffffff;*/
     position: relative;
     display: flex;
     /*background-color: #eceeef;*/
@@ -1432,7 +1485,7 @@ tagcloud
 
     position: relative;
 
-    top: 900px;
+    top: 200px;
     left: 0;
 
 }
@@ -1646,7 +1699,7 @@ tagcloud
 #contact{
     position: relative;
 
-    top: 1100px;
+    top: 400px;
     left: 0;
 }
 
@@ -2137,7 +2190,7 @@ input[type="submit"]:hover {
 footer {
     /*position: fixed;*/
     position: relative;
-    top: 1900px;
+    top: 1100px;
     bottom: 0;
     left: 0;
     right: 0;
