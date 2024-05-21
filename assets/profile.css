@@ -536,7 +536,7 @@ a:active .icon-arrow {
     background: #ffffff;
     position: relative;
 
-    top: 1200px;
+    top: -900px;
     display: flex;
     background-color: #eceeef;
 }
@@ -1295,7 +1295,7 @@ tagcloud
 #assignment {
     position: relative;
 
-    top: 450px;
+    top: -850px;
     left: 0;
 }
 
