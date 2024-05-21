@@ -530,15 +530,16 @@ a:active .icon-arrow {
 
 
 /*////////////////////////////mywork///////////////////////////////////////////////////////////////*/
+
 #mywork{
     width: 100vw;
     height: 100vh;
-    background: #ffffff;
+    /*background: #ffffff;*/
     position: relative;
 
     top: -900px;
     display: flex;
-    background-color: #eceeef;
+    background-color: #f7f1e3;
 }
 #myworkfont{
     position: absolute;
@@ -560,7 +561,10 @@ a:active .icon-arrow {
 }
 #leftsideofmywork>p{
     font-size: 20px;
-    word-break: break-word;
+    word-spacing: 15px;
+    line-height: 35px;
+    position: relative;
+    top: -50px;
 }
 #rightside>img{
     width: 40vw;
@@ -2242,7 +2246,7 @@ footer {
     right: 0;
     text-align: center;
     letter-spacing: 1px;
-    background-color: white;
+    background-color: #f7f1e3;
     height: 400px;
 }
 
