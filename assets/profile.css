@@ -168,6 +168,69 @@ h1{
     left: 40px;
 }
 
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+#social{
+    position: relative;
+    top: -600px;
+    left: 400px;
+}
+
+
+
 /*iphone se*/
 @media only screen and (min-width: 500px) and (max-width: 667px) {
 
@@ -423,6 +486,46 @@ a:active .icon-arrow {
     fill: #FD6154;
 }
 
+/*///////////////////////////aboutme////////////////////////////////////////////////////////////////*/
+#leftsideofaboutme{
+
+    width: 50%;
+    /*height: 100px;*/
+    position: relative;
+    top: -500px;
+    right: -50px;
+}
+#leftsideofaboutme>p{
+    font-size: 20px;
+    word-spacing: 15px;
+    line-height: 35px;
+
+}
+#rightsideofaboutme{
+    position: relative;
+    top: -1100px;
+    left: 850px;
+}
+#gettoknowme{
+    width: 50%;
+    position: relative;
+    top: -1000px;
+    left: 50px;
+}
+#gettoknowme>h2{
+
+    font-size: 25px;
+}
+#gettoknowme>p{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    word-spacing: 15px;
+    line-height: 35px;
+
+}
+
+
 
 
 
@@ -433,7 +536,7 @@ a:active .icon-arrow {
     background: #ffffff;
     position: relative;
 
-    top: -500px;
+    top: 1200px;
     display: flex;
     background-color: #eceeef;
 }
@@ -1192,7 +1295,7 @@ tagcloud
 #assignment {
     position: relative;
 
-    top: -450px;
+    top: 450px;
     left: 0;
 }
 
@@ -1775,64 +1878,7 @@ tagcloud
 /*}*/
 
 /*}*/
-.social-menu ul {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-.social-menu ul li {
-    list-style: none;
-    margin: 0 10px;
-}
-.social-menu ul li .fa {
-    color: #000000;
-    font-size: 25px;
-    line-height: 50px;
-    transition: .5s;
-}
-.social-menu ul li .fa:hover {
-    color: #ffffff;
-}
-.social-menu ul li a {
-    position: relative;
-    display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    text-align: center;
-    transition: 0.5s;
-    transform: translate(0,0px);
-    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-}
-.social-menu ul li a:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, -10px);
-}
-.social-menu ul li:nth-child(1) a:hover {
-    background-color: #3b5999;
-}
-.social-menu ul li:nth-child(2) a:hover {
-    background-color: #55acee;
-}
-.social-menu ul li:nth-child(3) a:hover {
-    background-color: #e4405f;
-}
-.social-menu ul li:nth-child(4) a:hover {
-    background-color: #cd201f;
-}
-.social-menu ul li:nth-child(5) a:hover {
-    background-color: #0077B5;
-}
 
-#social{
-    position: relative;
-    top: 60px;
-    left: -100px;
-}
 /*///////////////email send//////*/
 
 #emailfont{
@@ -2151,8 +2197,8 @@ input[type="submit"]:hover {
 /*}*/
 
 .fixed {
-    position: fixed;
-    top: 600px;
+    position: relative;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -2167,7 +2213,7 @@ input[type="submit"]:hover {
     text-decoration: none;
     padding-left: 25px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     text-shadow: 1px 1px 1px #ccc;
 }
 
@@ -2196,7 +2242,7 @@ footer {
     right: 0;
     text-align: center;
     letter-spacing: 1px;
-    background-color: grey;
+    background-color: white;
     height: 400px;
 }
 
