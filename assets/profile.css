@@ -8,7 +8,7 @@ body {
     font-family: sans-serif, system-ui;
     background: var(--white);
     cursor: pointer;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 body::before {
@@ -1888,6 +1888,8 @@ tagcloud
 }
 #leftsideofcontact>p{
     font-size: 20px;
+    word-spacing: 15px;
+    line-height: 35px;
 }
 #rightsideofcontact>img{
     width: 40vw;
@@ -1902,8 +1904,9 @@ tagcloud
 }
 
 #leftsideofcontact>p{
+    font-size: 20px;
     word-spacing: 15px;
-    line-height: 30px;
+    line-height: 35px;
     width: 130%;
 
     position: relative;
@@ -1916,7 +1919,7 @@ tagcloud
 #contactdetails{
 
     position: relative;
-    top: 900px;
+    top: 750px;
     left: 50px;
 
 }
@@ -1941,7 +1944,7 @@ tagcloud
 
 #emailsend{
     position: relative;
-    top: 200px;
+    top: 300px;
 }
 #emailsend>body {
     margin-top: 40px;
@@ -2374,9 +2377,9 @@ footer {
 
 .cursor{
     position: fixed;
-    width: 50px;
-    height: 50px;
-    /*border: 0px solid #c6c6c6;*/
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
     border-radius: 50%;
     left: 0;
     top: 0;
@@ -2389,8 +2392,9 @@ footer {
     position: fixed;
     width: 48px;
     height: 48px;
-    background-color: yellow;
+    /*background-color: black;*/
     border-radius: 80%;
+
     left: 0;
     top: 0;
     pointer-events: none;
@@ -2400,7 +2404,7 @@ footer {
 
 .content:hover ~ .cursor{
     transform: translate(-50%, -50%) scale(1.5);
-    background-color: yellow;
+    background-color: blue;
     opacity: .5;
 }
 
