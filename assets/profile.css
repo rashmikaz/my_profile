@@ -37,33 +37,33 @@ body::before {
   HTML5 CSS Reset Minified - Eric Meyer
   ========================================================================== */
 
-@import url(https://fonts.googleapis.com/css?family=Teko:300,400,500,600);
+/*@import url(https://fonts.googleapis.com/css?family=Teko:300,400,500,600);*/
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #000000;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
-li{list-style:none}
+/*html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}*/
+/*body{line-height:1}*/
+/*article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*/
+/*nav ul{list-style:none}*/
+/*blockquote,q{quotes:none}*/
+/*blockquote:before,blockquote:after,q:before,q:after{content:none}*/
+/*a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}*/
+/*mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}*/
+/*del{text-decoration:line-through}*/
+/*abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}*/
+/*table{border-collapse:collapse;border-spacing:0}*/
+/*hr{display:block;height:1px;border:0;border-top:1px solid #000000;margin:1em 0;padding:0}*/
+/*input,select{vertical-align:middle}*/
+/*li{list-style:none}*/
 
 
 /* =============================================================================
    My CSS
    ========================================================================== */
 
-html,body{
-    width:100%;
-    height:100%;
-    background:#FFFFFF;
-}
+/*html,body{*/
+/*    width:100%;*/
+/*    height:100%;*/
+/*    background:#FFFFFF;*/
+/*}*/
 
 /*body {*/
 
@@ -73,15 +73,15 @@ html,body{
 /*}*/
 
 /* remove canvas default margin */
-canvas{
-    display:block;
-    vertical-align:bottom;
-}
+/*canvas{*/
+/*    display:block;*/
+/*    vertical-align:bottom;*/
+/*}*/
 
-#particles-js{
-    width:100%;
-    height:100%;
-}
+/*#particles-js{*/
+/*    width:100%;*/
+/*    height:100%;*/
+/*}*/
 
 
 
@@ -223,12 +223,58 @@ h1{
     background-color: #0077B5;
 }
 
-#social{
-    position: relative;
-    top: -600px;
-    left: 400px;
-}
+/*#social{*/
+/*    position: relative;*/
+/*    top: -600px;*/
+/*    left: 400px;*/
+/*}*/
 
+/*.showcase*/
+/*{*/
+/*    position: absolute;*/
+/*    right: 150px;*/
+/*    top: 760px;*/
+
+/*    width: 340px;*/
+/*    height: 70px;*/
+
+
+/*    !*min-height: 100vh;*!*/
+/*    !*padding: 100px;*!*/
+/*    !*display: flex;*!*/
+/*    !*justify-content: space-between;*!*/
+/*    align-items: center;*/
+/*    !*background: white;*!*/
+/*    transition: 0.5s;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.social*/
+/*{*/
+/*    position: absolute;*/
+/*    z-index: 10;*/
+/*    bottom: 20px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*}*/
+/*.social li*/
+/*{*/
+/*    list-style: none;*/
+/*}*/
+/*.social li a*/
+/*{*/
+/*    display: inline-block;*/
+/*    margin-right: 20px;*/
+/*    filter: invert(1);*/
+/*    transform: scale(0.5);*/
+/*    transition: 0.5s;*/
+/*}*/
+/*.social li a:hover*/
+/*{*/
+/*    transform: scale(0.5) translateY(-15px);*/
+/*}*/
 
 
 /*iphone se*/
@@ -543,7 +589,7 @@ a:active .icon-arrow {
 }
 #myworkfont{
     position: absolute;
-    top: 50px;
+    top: 0px;
     left: 50px;
 
 }
@@ -570,7 +616,7 @@ a:active .icon-arrow {
     width: 40vw;
     height: 80%;
     border-radius: 0;
-    background: blue;
+    /*background: blue;*/
     position: absolute;
     top: 100px;
     right: 50px;
@@ -1305,8 +1351,9 @@ tagcloud
 
 #leftsideofassignment>p{
     width: 130%;
+    font-size: 20px;
     word-spacing: 15px;
-    line-height: 30px;
+    line-height: 35px;
 
     position: relative;
     top: -100px;
@@ -1347,11 +1394,11 @@ tagcloud
     width: 40vw;
     height: 80%;
     border-radius: 0;
-    background: blue;
+    /*background: white;*/
     position: absolute;
     top: 100px;
     right: 50px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
 /opacity: 80%;/
 }
 /*/////////////////assignment card/////////////////////////////////////////*/
@@ -1592,7 +1639,7 @@ tagcloud
 
     position: relative;
 
-    top: 200px;
+    top: -200px;
     left: 0;
 
 }
@@ -1624,7 +1671,10 @@ tagcloud
     left: 50px;
 }
 #leftsideofgallery>p{
+
     font-size: 20px;
+    word-spacing: 15px;
+    line-height: 35px;
 }
 
 /*/////galleryimages///////////////////////////////*/
@@ -1642,7 +1692,7 @@ tagcloud
 
 #galleryimage{
     position: relative;
-    top: 400px;
+    top: 500px;
     left: 300px;
 }
 
