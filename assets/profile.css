@@ -139,10 +139,10 @@ h1{
 #aboutbody{
     position: relative;
 
-    top: -620px;
+    top: -600px;
     left: 40px;
 
-    width: 50%;
+    width: 45%;
     font-size: medium;
     word-spacing: 8px;
     line-height: 23px;
@@ -158,15 +158,15 @@ h1{
 #mainname>h1{
     position: relative;
 
-    top: -620px;
+    top: -610px;
     left: 40px;
 }
-#mainname>#seemore{
-    position: relative;
+/*#mainname>#seemore{*/
+/*    position: relative;*/
 
-    top: -580px;
-    left: 40px;
-}
+/*    top: -580px;*/
+/*    left: 40px;*/
+/*}*/
 
 
 .social-menu ul {
@@ -275,6 +275,79 @@ h1{
 /*{*/
 /*    transform: scale(0.5) translateY(-15px);*/
 /*}*/
+
+
+.container {margin: 0 auto; width:90px;height:90px;}
+.circle {background: #ffffff; border-radius: 100%; text-align: center; padding: 15px 0 0 0; line-height: 50px; color: #000000;}
+.introText {background: #f26522;  padding: 30px 0;}
+.introText h1 {line-height: 1.5em!important;}
+
+/*-------------Infinite Bouncing Arrow----------*/
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+#down{
+    position: relative;
+    top: -660px;
+    left: 350px;
+}
+
+
+
+
 
 
 /*iphone se*/
