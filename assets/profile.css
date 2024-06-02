@@ -133,6 +133,7 @@ header {
 }
 h1{
     font-size: 100px;
+    font-family: Monaco;
 
 }
 
@@ -148,6 +149,9 @@ h1{
     line-height: 23px;
 
 }
+#aboutbody>p{
+    font-family: Monaco;
+}
 
 #main{
 
@@ -160,6 +164,7 @@ h1{
 
     top: -610px;
     left: 40px;
+    font-family: Monaco;
 }
 /*#mainname>#seemore{*/
 /*    position: relative;*/
@@ -537,7 +542,7 @@ h1{
     font-size: 20px;
     word-spacing: 15px;
     line-height: 35px;
-
+   font-family: Monaco;
 }
 #rightsideofaboutme{
     position: relative;
@@ -560,6 +565,7 @@ h1{
     font-size: 20px;
     word-spacing: 15px;
     line-height: 35px;
+    font-family: Monaco;
 
 }
 
@@ -593,6 +599,7 @@ h1{
     font-family:  "Montserrat", sans-serif;
     font-size: 200px;
     margin: 0;
+    font-family: Monaco;
 }
 #leftsideofmywork{
     width: 40%;
@@ -606,6 +613,7 @@ h1{
     line-height: 35px;
     position: relative;
     top: -50px;
+    font-family: Monaco;
 }
 #rightside>img{
     width: 40vw;
@@ -1352,6 +1360,7 @@ tagcloud
 
     position: relative;
     top: -100px;
+    font-family: Monaco;
 }
 
 
@@ -1375,6 +1384,7 @@ tagcloud
     font-family:  "Montserrat", sans-serif;
     font-size: 100px;
     margin: 0;
+    font-family: Monaco;
 }
 #leftsideofassignment{
     width: 35%;
@@ -1658,6 +1668,7 @@ tagcloud
     font-family:  "Montserrat", sans-serif;
     font-size: 100px;
     margin: 0;
+    font-family: Monaco;
 }
 #leftsideofgallery{
     width: 95%;
@@ -1670,6 +1681,7 @@ tagcloud
     font-size: 20px;
     word-spacing: 15px;
     line-height: 35px;
+    font-family: Monaco;
 }
 
 /*/////galleryimages///////////////////////////////*/
@@ -1874,6 +1886,7 @@ tagcloud
     font-family:  "Montserrat", sans-serif;
     font-size: 100px;
     margin: 0;
+    font-family: Monaco;
 }
 #leftsideofcontact{
     width: 35%;
@@ -1885,6 +1898,7 @@ tagcloud
     font-size: 20px;
     word-spacing: 15px;
     line-height: 35px;
+    font-family: Monaco;
 }
 #rightsideofcontact>img{
     width: 40vw;
