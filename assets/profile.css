@@ -152,8 +152,8 @@ h1{
 #main{
 
    position: absolute;
-    top: 150px;
-    right: 40px;
+    top: 100px;
+    right: 20px;
 }
 #mainname>h1{
     position: relative;
@@ -342,7 +342,7 @@ h1{
 #down{
     position: relative;
     top: -660px;
-    left: 350px;
+    left: 340px;
 }
 
 
@@ -1857,7 +1857,7 @@ tagcloud
 
 #contact{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     /*background: #ffffff;*/
     position: relative;
     display: flex;
@@ -1888,7 +1888,7 @@ tagcloud
 }
 #rightsideofcontact>img{
     width: 40vw;
-    height: 80%;
+    height: 50vw;
     border-radius: 0;
     background: blue;
     position: absolute;
@@ -1897,6 +1897,9 @@ tagcloud
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 /opacity: 80%;/
 }
+
+
+
 
 #leftsideofcontact>p{
     font-size: 20px;
@@ -2294,10 +2297,10 @@ tagcloud
 footer {
     /*position: fixed;*/
     position: relative;
-    top: -900px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: -600px;
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
     text-align: center;
     letter-spacing: 1px;
     background-color: #f7f1e3;
