@@ -122,7 +122,11 @@ header {
     position: relative;
 
     left: 700px;
-    top: -90px;
+    top: -150px;
+}
+#logo{
+    position: relative;
+    top: -65px;
 }
 
 #home{
@@ -137,18 +141,7 @@ h1{
 
 }
 
-#aboutbody{
-    position: relative;
 
-    top: -600px;
-    left: 40px;
-
-    width: 45%;
-    font-size: medium;
-    word-spacing: 8px;
-    line-height: 23px;
-
-}
 #aboutbody>p{
     font-family: Monaco;
 }
@@ -162,7 +155,7 @@ h1{
 #mainname>h1{
     position: relative;
 
-    top: -610px;
+    top: -650px;
     left: 40px;
     font-family: Monaco;
 }
@@ -172,7 +165,18 @@ h1{
 /*    top: -580px;*/
 /*    left: 40px;*/
 /*}*/
+#aboutbody{
+    position: relative;
 
+    top: -650px;
+    left: 40px;
+
+    width: 45%;
+    font-size: medium;
+    word-spacing: 8px;
+    line-height: 23px;
+
+}
 
 .social-menu ul {
     position: absolute;
@@ -346,7 +350,7 @@ h1{
 
 #down{
     position: relative;
-    top: -660px;
+    top: -760px;
     left: 340px;
 }
 
@@ -541,7 +545,7 @@ h1{
 #leftsideofaboutme>p{
     font-size: 20px;
     word-spacing: 15px;
-    line-height: 35px;
+    line-height: 45px;
    font-family: Monaco;
 }
 #rightsideofaboutme{
@@ -558,13 +562,14 @@ h1{
 #gettoknowme>h2{
 
     font-size: 25px;
+    font-family: Monaco;
 }
 #gettoknowme>p{
     position: relative;
     top: 40px;
     font-size: 20px;
     word-spacing: 15px;
-    line-height: 35px;
+    line-height: 45px;
     font-family: Monaco;
 
 }
@@ -612,7 +617,7 @@ h1{
     word-spacing: 15px;
     line-height: 35px;
     position: relative;
-    top: -50px;
+    top: -10px;
     font-family: Monaco;
 }
 #rightside>img{
@@ -1356,7 +1361,7 @@ tagcloud
     width: 130%;
     font-size: 20px;
     word-spacing: 15px;
-    line-height: 35px;
+    line-height: 45px;
 
     position: relative;
     top: -100px;
@@ -1680,7 +1685,7 @@ tagcloud
 
     font-size: 20px;
     word-spacing: 15px;
-    line-height: 35px;
+    line-height: 45px;
     font-family: Monaco;
 }
 
