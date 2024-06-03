@@ -1226,7 +1226,7 @@ tagcloud
 }
 #rightsideofassignment>img{
     width: 50vw;
-    height: 90%;
+    height: 95%;
     border-radius: 0;
     /*background: white;*/
     position: absolute;
@@ -1249,7 +1249,20 @@ tagcloud
     font-family: monospace;
 }
 .item>h1{
-    font-size: 30px;
+    font-size: 25px;
+    color: black;
+
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+.item>a>img{
+    width: 40px;
+    height: 40px;
+
+    position: relative;
+    top: 300px;
+    left: 70px;
 }
 
 .slider{
