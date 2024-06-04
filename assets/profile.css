@@ -1702,7 +1702,7 @@ tagcloud
 
 #contact{
     width: 100vw;
-    height: 80vh;
+    height: 0vh;
     /*background: #ffffff;*/
     position: relative;
     display: flex;
@@ -2019,7 +2019,7 @@ tagcloud
 footer {
     /*position: fixed;*/
     position: relative;
-    top: -600px;
+    top: -0px;
     /*bottom: 0;*/
     /*left: 0;*/
     /*right: 0;*/
