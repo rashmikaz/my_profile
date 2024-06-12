@@ -193,29 +193,27 @@ h1{
         background-color: lightgreen;
     }
 
+
+    #main-menu{
+        position: relative;
+        top: 280px;
+        left: -70px;
+        margin-right: -300px;
+
+    }
     #abc {
         width: 390px;
-    }
 
-    #mainnav {
         position: relative;
-
-        right: -10px;
-        font-size: 100px;
-        margin-right: -180px;
-
+        top: -600px;
+        left: 70px;
     }
-    header>nav>ul>a {
-        display: inline;
-        margin-right: 40px;
 
 
-
-    }
     #mainname{
         position: relative;
 
-        top: 0px;
+        top: -100px;
         right: 20px;
 
     }
@@ -236,8 +234,8 @@ h1{
     #aboutbody{
         width: 80%;
         position: relative;
-        top: 350px;
-        left: 40px;
+        top: 400px;
+        left: 100px;
     }
     #mainname>#seemore{
         position: relative;
@@ -377,7 +375,7 @@ h1{
 }
 #rightsideofaboutme{
     position: relative;
-    top: -1100px;
+    top: -1200px;
     left: 850px;
 }
 #gettoknowme{
@@ -406,6 +404,16 @@ h1{
     top: -550px;
 }
 
+
+
+/*iphone se*/
+@media only screen and (min-width: 500px) and (max-width: 667px) {
+
+    #aboutme{
+        position: relative;
+        top: 400px;
+    }
+}
 
 
 /*//////////////////////////////////////////////////mywork///////////////////////////////////////////////////////////////*/
@@ -2852,4 +2860,16 @@ skillss {
 .btn.hover-border-11 span:hover::before,
 .btn.hover-border-11 span:hover::after {
     height: 0%;
+}
+
+
+
+.animate__pulse {
+    --animate-duration: 5s;
+}
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
 }
