@@ -237,11 +237,7 @@ h1{
         top: 400px;
         left: 100px;
     }
-    #mainname>#seemore{
-        position: relative;
-        top: 350px;
-        left: 40px;
-    }
+
 
 }
 /*iphone 14 pro max*/
@@ -250,36 +246,46 @@ h1{
     #home{
         background-color: lightblue;
     }
+    #main-menu{
+        position: relative;
+        top: 220px;
+        left: -70px;
+        margin-right: -300px;
 
+    }
     #abc {
-        width: 550px;
+        width: 490px;
 
         position: relative;
-        top: -20px;
-        right: 10px;
+        top: -650px;
+        left: 50px;
     }
-
-    #mainnav {
-        font-size: 100px;
-        margin-right:-140px;
-
-        position: relative;
-        left: 40px;
-    }
-
-    #navhome {
-    }
-
-    #mainname{
+    #main{
         position: relative;
 
-        top: 600px;
-        right: -25px;
-
+        top: -725px;
+        left: 50px;
     }
+
+
+
+
+    #mainname>h1{
+        font-size: 80px;
+        position: relative;
+
+        top: 400px;
+        left: 35px;
+    }
+
     #aboutbody{
-        width: 85%;
+        width: 80%;
+        position: relative;
+        top: 400px;
+        left: 50px;
     }
+
+
 
 }
 
@@ -430,6 +436,31 @@ h1{
 
     }
 
+
+}
+/*iphone 14 pro max*/
+@media only screen and (min-width: 667px) and (max-width: 932px) {
+
+    #aboutme{
+        position: relative;
+        top: -160px;
+    }
+    #leftsideofaboutme>p{
+        width: 170%;
+    }
+    #rightsideofaboutme{
+
+        position: relative;
+        left: 50px;
+        top: -500px;
+    }
+    #gettoknowme{
+        width: 90%;
+
+        position: relative;
+        top: -400px;
+
+    }
 
 }
 
