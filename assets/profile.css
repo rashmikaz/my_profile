@@ -461,6 +461,11 @@ h1{
         top: -400px;
 
     }
+    #skillss{
+        position: relative;
+        left: 130px;
+        top: -250px;
+    }
 
 }
 
@@ -851,16 +856,16 @@ tagcloud
 
     #mywork{
         position: relative;
-        top: 600px;
+        top: -250px;
     }
     #myworkfont{
         position: relative;
         top: 20px;
-        left: 10px;
+        left: 60px;
     }
     #myworkfont>h1{
-        font-size: 120px;
-        line-height: 120px;
+        font-size: 220px;
+        line-height: 220px;
     }
     #leftsideofmywork{
         position: relative;
@@ -869,9 +874,10 @@ tagcloud
 
     }
     #leftsideofmywork>p{
-        width: 250%;
+        width: 330%;
         position: relative;
-        top: -70px;
+        top: 150px;
+        left: -150px;
     }
     #rightside{
         position: relative;
