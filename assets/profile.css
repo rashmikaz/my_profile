@@ -299,29 +299,45 @@ h1{
 
 
 
-    #mainnav {
+    #main-menu{
+        position: relative;
+        top: 120px;
+        left: 70px;
+        margin-right: -300px;
+
+    }
+    #abc {
+        width: 590px;
+
+        position: relative;
+        top: -800px;
+        left: 110px;
+    }
+    #main{
+        position: relative;
+
+        top: -725px;
+        left: 50px;
+    }
+
+
+
+
+    #mainname>h1{
         font-size: 100px;
-        margin-right: 100px;
-    }
-
-
-
-    #mainname{
         position: relative;
 
-        top: 600px;
-        left: 100px;
+        top: 400px;
+        left: 115px;
     }
-    #abc{
-        width: 550px;
 
-        position: relative;
-        right: 150px;
-
-    }
     #aboutbody{
         width: 80%;
+        position: relative;
+        top: 400px;
+        left: 130px;
     }
+
 
 }
 /*ipad air*/
@@ -467,6 +483,35 @@ h1{
         top: -250px;
     }
 
+}
+/*ipad mini*/
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+
+    #aboutme{
+        position: relative;
+        top: -160px;
+    }
+    #leftsideofaboutme>p{
+        width: 170%;
+    }
+    #rightsideofaboutme{
+
+        position: relative;
+        left: 50px;
+        top: -500px;
+    }
+    #gettoknowme{
+        width: 90%;
+
+        position: relative;
+        top: -400px;
+
+    }
+    #skillss{
+        position: relative;
+        left: 130px;
+        top: -250px;
+    }
 }
 
 
@@ -878,55 +923,6 @@ tagcloud
         position: relative;
         top: 150px;
         left: -150px;
-    }
-    #rightside{
-        position: relative;
-        left: 250px;
-        top: -50px;
-    }
-
-
-
-    #card5{
-        height: 300px;
-        width: 300px;
-
-        position: relative;
-
-        top: -1230px;
-        left: -120px;
-
-    }
-    #card6{
-        height: 300px;
-        width: 300px;
-
-        position: relative;
-
-        top: -850px;
-        left: -100px;
-    }
-    #card7{
-        height: 300px;
-        width: 300px;
-
-        position: relative;
-
-
-        top: -850px;
-        left: -450px;
-
-
-    }
-    #card8{
-        height: 300px;
-        width: 300px;
-
-        position: relative;
-
-        top: -1200px;
-        left: -100px;
-
     }
 
 }
