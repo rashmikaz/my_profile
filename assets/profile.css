@@ -347,34 +347,45 @@ h1{
         background-color: yellow;
     }
 
+    #main-menu{
+        position: relative;
+        top: 40px;
+        left: 130px;
+        margin-right: -300px;
+
+    }
     #abc {
-        width: 550px;
+        width: 640px;
 
         position: relative;
-        left: -200px;
+        top: -900px;
+        left: 160px;
+    }
+    #main{
+        position: relative;
+
+        top: -725px;
+        left: 50px;
     }
 
-    #mainnav {
+
+
+
+    #mainname>h1{
         font-size: 100px;
-        margin-right: 250px;
-    }
-
-    #mainnav {
-        font-size: 100px;
-        margin-right:-140px;
-
-        position: relative;
-        left: 190px;
-    }
-    #mainname{
         position: relative;
 
-        top: 600px;
-        left: 140px;
+        top: 400px;
+        left: 165px;
     }
+
     #aboutbody{
-        width: 80%;
+        width: 70%;
+        position: relative;
+        top: 400px;
+        left: 160px;
     }
+
 
 
 }
@@ -490,6 +501,36 @@ h1{
     #aboutme{
         position: relative;
         top: -270px;
+    }
+    #leftsideofaboutme>p{
+        width: 170%;
+    }
+    #rightsideofaboutme{
+
+        position: relative;
+        left: 180px;
+        top: -450px;
+    }
+    #gettoknowme{
+        width: 90%;
+
+        position: relative;
+        top: -400px;
+
+    }
+    #skillss{
+        position: relative;
+        left: 210px;
+        top: -250px;
+    }
+}
+
+/*ipad air*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    #aboutme{
+        position: relative;
+        top: -370px;
     }
     #leftsideofaboutme>p{
         width: 170%;
