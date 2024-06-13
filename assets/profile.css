@@ -1341,26 +1341,7 @@ tagcloud
         right: -650px;
 
     }
-    #a1{
-        position: relative;
-        top: 70px;
-        left: -250px;
-    }
-    #a2{
-        position: relative;
-        top: 70px;
-        left: -170px;
-    }
-    #a3{
-        position: relative;
-        top: 70px;
-        right: 250px;
-    }
-    #a4{
-        position: relative;
-        top: 70px;
-        right: 170px;
-    }
+
 }
 
 /*ipad air*/
@@ -1369,7 +1350,7 @@ tagcloud
     #assignment{
         position: relative;
 
-        top: 1800px;
+        top: 300px;
     }
     #rightsideofassignment{
 
@@ -1586,7 +1567,7 @@ tagcloud
 @media only screen and (min-width: 1024px) and (max-width: 1200px){
     #gallery{
         position: relative;
-        top: 2800px;
+        top: 1000px;
     }
     #galleryimage{
         position: relative;
@@ -1751,11 +1732,11 @@ tagcloud
     #contact{
         position: relative;
 
-        top: 3100px;
+        top: 1600px;
     }
     #rightsideofcontact{
         position: relative;
-        top: 200px;
+        top: 0px;
         left: 1150px;
     }
     #contactdetails{
@@ -1971,7 +1952,7 @@ footer {
     #footer{
         position: relative;
 
-        top: 4600px;
+        top: 2400px;
     }
 }
 
