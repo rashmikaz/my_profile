@@ -973,97 +973,31 @@ tagcloud
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 
     #mywork{
-        position: relative;
 
-        top: 600px;
+        position: relative;
+        top: -300px;
     }
     #myworkfont>h1{
-        font-size: 150px;
+        font-size: 250px;
         position: relative;
-        top: -60px;
+        top: 0px;
     }
     #leftsideofmywork{
-        width: 90%;
-
+        width: 150%;
         position: relative;
 
-        top: 350px;
+        top: 300px;
+        left: -380px;
 
     }
-
-    #card1{
-        position: relative;
-
-        top: -150px;
-        left: -490px;
-    }
-    #card2{
-        height: 360px;
-        width: 360px;
+    #cer{
 
         position: relative;
-        top: -150px;
-        left: -490px;
-
+        left: -400px;
+        top: 700px;
     }
-    #card3{
-        height: 360px;
-        width: 360px;
-
-        position: relative;
-        top: -150px;
-        left: -490px;
-    }
-    #card4{
-        height: 360px;
-        width: 360px;
-
-        position: absolute;
-        top: 260px;
-        left: -50px;
-
-    }
-    #card5{
-        height: 360px;
-        width: 360px;
-
-        position: relative;
-
-        top: -1400px;
-        left: -50px;
-
-    }
-    #card6{
-        height: 360px;
-        width: 360px;
-
-        position: relative;
-
-        top: -1000px;
-        left: -60px;
-    }
-    #card7{
-        height: 360px;
-        width: 360px;
-
-        position: relative;
 
 
-        top: -1000px;
-        left: -490px;
-
-
-    }
-    #card8{
-        height: 360px;
-        width: 360px;
-
-        position: relative;
-
-        top: -1410px;
-        left: -80px;
-
-    }
 
 }
 
@@ -1327,19 +1261,25 @@ tagcloud
     #assignment{
         position: relative;
 
-        top: 2310px;
+        top: 510px;
     }
     #leftsideofassignment{
         position: relative;
-        top: 250px;
+        top: 270px;
         width: 60%;
     }
     #rightsideofassignment{
         position: relative;
 
         top: 130px;
-        right: -650px;
+        right: -550px;
 
+    }
+    #slider{
+        position: relative;
+
+        top: 1000px;
+        left: -170px;
     }
 
 }
@@ -1552,10 +1492,10 @@ tagcloud
     #gallery{
         position: relative;
 
-        top: 3300px;
+        top: 1300px;
     }
     #leftsideofgallery{
-        width: 90%;
+        width: 390%;
     }
     #galleryimage{
         position: relative;
@@ -1711,19 +1651,18 @@ tagcloud
     #contact{
         position: relative;
 
-        top: 3600px;
+        top: 1900px;
+    }
+    #leftsideofcontact{
+        width: 40%;
+
     }
     #rightsideofcontact{
         position: relative;
-        top: 200px;
+        top: 0px;
         left: 950px;
     }
-    #contactdetails{
-        position: relative;
 
-        top: 1350px;
-
-    }
 
 }
 
@@ -1943,7 +1882,7 @@ footer {
     #footer{
         position: relative;
 
-        top: 5100px;
+        top: 2600px;
     }
 }
 
