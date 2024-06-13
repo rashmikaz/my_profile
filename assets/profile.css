@@ -489,7 +489,7 @@ h1{
 
     #aboutme{
         position: relative;
-        top: -160px;
+        top: -270px;
     }
     #leftsideofaboutme>p{
         width: 170%;
@@ -497,8 +497,8 @@ h1{
     #rightsideofaboutme{
 
         position: relative;
-        left: 50px;
-        top: -500px;
+        left: 180px;
+        top: -450px;
     }
     #gettoknowme{
         width: 90%;
@@ -509,7 +509,7 @@ h1{
     }
     #skillss{
         position: relative;
-        left: 130px;
+        left: 210px;
         top: -250px;
     }
 }
