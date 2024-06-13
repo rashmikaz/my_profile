@@ -189,9 +189,7 @@ h1{
 /*iphone se*/
 @media only screen and (min-width: 500px) and (max-width: 667px) {
 
-    #home{
-        background-color: lightgreen;
-    }
+
 
 
     #main-menu{
@@ -243,9 +241,7 @@ h1{
 /*iphone 14 pro max*/
 @media only screen and (min-width: 667px) and (max-width: 932px) {
 
-    #home{
-        background-color: lightblue;
-    }
+
     #main-menu{
         position: relative;
         top: 220px;
@@ -293,9 +289,7 @@ h1{
 /*ipad mini*/
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 
-    #home{
-        background-color: lightyellow;
-    }
+
 
 
 
@@ -343,9 +337,7 @@ h1{
 /*ipad air*/
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 
-    #home{
-        background-color: yellow;
-    }
+
 
     #main-menu{
         position: relative;
