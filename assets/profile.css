@@ -1070,100 +1070,34 @@ tagcloud
 /*ipad air*/
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     #mywork{
+        height: 1000px;
         position: relative;
 
-        top: 600px;
+        top: -400px;
     }
     #myworkfont>h1{
-        font-size: 170px;
+        font-size: 320px;
         position: relative;
         top: -60px;
+        left: 120px;
     }
     #leftsideofmywork{
-        width: 90%;
+        width: 150%;
 
         position: relative;
 
-        top: 370px;
+        top: 730px;
+        left: 180px;
 
     }
-    #card1{
-        height: 330px;
-        width: 330px;
+   #cer{
+       background-color: white;
+       width: 100%;
 
-        position: relative;
-
-        top: -130px;
-        left: -650px;
-    }
-    #card2{
-        height: 330px;
-        width: 330px;
-
-        position: relative;
-        top: -150px;
-        left: -650px;
-
-    }
-    #card3{
-        height: 330px;
-        width: 330px;
-
-        position: relative;
-        top: -540px;
-        left: -280px;
-    }
-    #card4{
-        height: 330px;
-        width: 330px;
-
-        position: absolute;
-        top: -120px;
-        left: 230px;
-
-    }
-    #card5{
-        height: 330px;
-        width: 330px;
-
-        position: relative;
-
-        top: -1300px;
-        left: -280px;
-
-    }
-    #card6{
-        height: 330px;
-        width: 330px;
-
-        position: relative;
-
-        top: -1320px;
-        left: 90px;
-    }
-    #card7{
-        height: 330px;
-        width: 330px;
-
-        position: relative;
-
-
-        top: -1320px;
-        left: -640px;
-
-
-    }
-    #card8{
-        height: 330px;
-        width: 330px;
-
-        position: relative;
-
-        top: -1710px;
-        left: -260px;
-
-    }
-
+       position: relative;
+       left: -300px;
+       top: 1000px;
+   }
 
 }
 /*/////////////////////////////////////////////assignment///////////////////////////////////////////////////*/
